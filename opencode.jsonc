@@ -1,0 +1,44 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  // Project skills are discovered from the project-standard .agents/skills.
+  // Allow every built-in agent to advertise and load them with the skill tool.
+  // Skills that set disable-model-invocation are still loadable by exact ID.
+  "agents": {
+    "build": {
+      "permissions": [
+        {
+          "action": "skill",
+          "resource": "*",
+          "effect": "allow",
+        },
+      ],
+    },
+    "plan": {
+      "permissions": [
+        {
+          "action": "skill",
+          "resource": "*",
+          "effect": "allow",
+        },
+      ],
+    },
+    "general": {
+      "permissions": [
+        {
+          "action": "skill",
+          "resource": "*",
+          "effect": "allow",
+        },
+      ],
+    },
+    "explore": {
+      "permissions": [
+        {
+          "action": "skill",
+          "resource": "*",
+          "effect": "allow",
+        },
+      ],
+    },
+  },
+}
