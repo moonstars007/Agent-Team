@@ -36,7 +36,7 @@ Standard labels: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-hum
 
 ### Domain docs
 
-Single-context layout: the domain glossary is `DOMAIN.md` at the repo root; ADRs live in `docs/adr/`. See `docs/agents/domain.md`.
+Single-context layout: the domain glossary is `GLOSSARY.md` at the repo root; ADRs live in `docs/adr/`. See `docs/agents/domain.md`.
 
 ## Global writing rules
 
@@ -48,3 +48,8 @@ OpenCode loads the link as global rules in every session.
 ## Inbox
 
 `Input/` is the intake queue; rules in `Input/README.md`.
+
+## Sources
+
+`Resources/` holds local source material: links, articles, docs, PDFs. It is not committed; rules in `Resources/README.md`.
+

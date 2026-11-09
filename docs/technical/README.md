@@ -23,4 +23,3 @@ Name the tool and its version when they matter.
 ## Index
 
 - [opencode-global-rules.md](opencode-global-rules.md) — global rules loading, link dependency, and precedence limits.
-- [agent-skills-naming.md](agent-skills-naming.md) — project keeps `DOMAIN.md` while upstream skills use `GLOSSARY.md`; run the naming script after updates.
